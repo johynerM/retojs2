@@ -20,4 +20,4 @@ const promesa = new Promise((resolve,reject) => {
 promesa.then((res) => console.log("Nombre: " + estudiantes.nombre[0]));
 promesa.then((res1)=> console.log("Nombre: " + estudiantes.nombre[1]));
 promesa.then((res2)=> console.log("Nombre: " + estudiantes.nombre[2]));
-promesa.catch((error)=> console.log("Error: NO existe un estudiante con este I"))
+promesa.catch((error)=> console.log("Error: NO existe un estudiante con este ID"))
